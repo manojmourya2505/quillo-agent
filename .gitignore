@@ -1,0 +1,12 @@
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+*.json.secret
+serviceAccount*.json
+
+# Dependencies and caches
+node_modules/
+__pycache__/
+.venv/
+.DS_Store
